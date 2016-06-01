@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="iSJ-wj-Kl9">
+                    <rect key="frame" x="8" y="8" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="cYF-r3-Tf9"/>
+                        <constraint firstAttribute="height" constant="44" id="wxR-QE-zYR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michael Jackson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QU5-hS-ax4">
+                    <rect key="frame" x="60" y="8" width="162" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="TZP-Cd-Kec"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-01-02 12:21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXU-bJ-JGL">
+                    <rect key="frame" x="60" y="37" width="162" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="gsS-y5-F0y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.31890134162303663" green="0.31890134162303663" blue="0.31890134162303663" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="more.png" translatesAutoresizingMaskIntoConstraints="NO" id="TYw-1Y-O7R">
+                    <rect key="frame" x="230" y="8" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="6vI-LX-QWg"/>
+                        <constraint firstAttribute="height" constant="22" id="iNI-oc-0Ln"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.1682161465" green="0.9336215752" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="tXU-bJ-JGL" firstAttribute="trailing" secondItem="QU5-hS-ax4" secondAttribute="trailing" id="51Q-ji-TwK"/>
+                <constraint firstAttribute="trailing" secondItem="TYw-1Y-O7R" secondAttribute="trailing" constant="8" id="D3Y-u7-fo2"/>
+                <constraint firstItem="TYw-1Y-O7R" firstAttribute="leading" secondItem="QU5-hS-ax4" secondAttribute="trailing" constant="8" id="IED-xA-DOo"/>
+                <constraint firstItem="QU5-hS-ax4" firstAttribute="leading" secondItem="iSJ-wj-Kl9" secondAttribute="trailing" constant="8" id="NIv-o0-OzS"/>
+                <constraint firstItem="QU5-hS-ax4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="R99-f2-2A3"/>
+                <constraint firstItem="tXU-bJ-JGL" firstAttribute="leading" secondItem="QU5-hS-ax4" secondAttribute="leading" id="RsZ-7F-ShW"/>
+                <constraint firstItem="iSJ-wj-Kl9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="Svk-3h-aVt"/>
+                <constraint firstItem="TYw-1Y-O7R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="dI2-Q6-lF8"/>
+                <constraint firstItem="tXU-bJ-JGL" firstAttribute="bottom" secondItem="iSJ-wj-Kl9" secondAttribute="bottom" id="hij-ae-iO3"/>
+                <constraint firstItem="iSJ-wj-Kl9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="rxF-Hd-aXE"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar.png" width="60" height="60"/>
+        <image name="more.png" width="60" height="60"/>
+    </resources>
+</document>
