@@ -6,3 +6,16 @@ add xib into storyboard or xib
 <img src="Images/demo0.gif" />
 
 <img src="Images/demo1.png" />
+
+### How to use
+
+`pod YYNib`
+
+```
+#import <UIKit/UIKit.h>
+#import "YYNibView.h"
+
+@interface UserInfoView : YYNibView
+
+@end
+```
