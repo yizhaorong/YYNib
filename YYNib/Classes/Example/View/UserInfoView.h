@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YYNibView.h"
+#import <YYNibView.h>
 
 @interface UserInfoView : YYNibView
 

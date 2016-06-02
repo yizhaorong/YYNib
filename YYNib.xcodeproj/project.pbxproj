@@ -20,7 +20,16 @@
 		9916D88B1CFEF25A0068C193 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9916D87F1CFEF25A0068C193 /* avatar.png */; };
 		9916D88C1CFEF25A0068C193 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 9916D8801CFEF25A0068C193 /* more.png */; };
 		9916D88D1CFEF25A0068C193 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9916D8811CFEF25A0068C193 /* Info.plist */; };
-		9916D88E1CFEF25A0068C193 /* YYNibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8841CFEF25A0068C193 /* YYNibView.m */; };
+		9916D8921CFFC71E0068C193 /* YYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8911CFFC71E0068C193 /* YYTableViewController.m */; };
+		9916D8951CFFC74F0068C193 /* YYUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8941CFFC74F0068C193 /* YYUserInfoCell.m */; };
+		9916D8991CFFC7920068C193 /* YYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8981CFFC7920068C193 /* YYUser.m */; };
+		9916D89B1CFFC81E0068C193 /* YYUserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9916D89A1CFFC81E0068C193 /* YYUserInfoCell.xib */; };
+		9916D8A51CFFD68C0068C193 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D89E1CFFD68C0068C193 /* UITableView+FDIndexPathHeightCache.m */; };
+		9916D8A61CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8A01CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.m */; };
+		9916D8A71CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8A21CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.m */; };
+		9916D8A81CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8A41CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		9916D8AE1CFFE28B0068C193 /* YYNibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8AD1CFFE28B0068C193 /* YYNibView.m */; };
+		AEC3C4B7496B4326A17EEB58 /* libPods-YYNib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 164529DB693891494204DD74 /* libPods-YYNib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		164529DB693891494204DD74 /* libPods-YYNib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYNib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0F9280CA6B3C4FDED6EB10 /* Pods-YYNib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYNib/Pods-YYNib.debug.xcconfig"; sourceTree = "<group>"; };
+		3C03C7CCD87CBC836862C71B /* Pods-YYNib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYNib.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYNib/Pods-YYNib.release.xcconfig"; sourceTree = "<group>"; };
 		9916D82D1CFEEC8A0068C193 /* YYNib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYNib.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9916D8311CFEEC8A0068C193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9916D83A1CFEEC8A0068C193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9916D83F1CFEEC8A0068C193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9916D8461CFEEC8A0068C193 /* YYNibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYNibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +74,25 @@
 		9916D87F1CFEF25A0068C193 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 		9916D8801CFEF25A0068C193 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
 		9916D8811CFEF25A0068C193 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9916D8831CFEF25A0068C193 /* YYNibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNibView.h; sourceTree = "<group>"; };
-		9916D8841CFEF25A0068C193 /* YYNibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNibView.m; sourceTree = "<group>"; };
+		9916D8901CFFC71E0068C193 /* YYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableViewController.h; sourceTree = "<group>"; };
+		9916D8911CFFC71E0068C193 /* YYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableViewController.m; sourceTree = "<group>"; };
+		9916D8931CFFC74F0068C193 /* YYUserInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUserInfoCell.h; sourceTree = "<group>"; };
+		9916D8941CFFC74F0068C193 /* YYUserInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUserInfoCell.m; sourceTree = "<group>"; };
+		9916D8971CFFC7920068C193 /* YYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUser.h; sourceTree = "<group>"; };
+		9916D8981CFFC7920068C193 /* YYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUser.m; sourceTree = "<group>"; };
+		9916D89A1CFFC81E0068C193 /* YYUserInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYUserInfoCell.xib; sourceTree = "<group>"; };
+		9916D89D1CFFD68C0068C193 /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		9916D89E1CFFD68C0068C193 /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		9916D89F1CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		9916D8A01CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		9916D8A11CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		9916D8A21CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		9916D8A31CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		9916D8A41CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		9916D8A91CFFE1C00068C193 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		9916D8AA1CFFE1C00068C193 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9916D8AC1CFFE28B0068C193 /* YYNibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNibView.h; sourceTree = "<group>"; };
+		9916D8AD1CFFE28B0068C193 /* YYNibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNibView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEC3C4B7496B4326A17EEB58 /* libPods-YYNib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B3F7F5DE0420AF227B05ABF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E0F9280CA6B3C4FDED6EB10 /* Pods-YYNib.debug.xcconfig */,
+				3C03C7CCD87CBC836862C71B /* Pods-YYNib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9916D8241CFEEC8A0068C193 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +137,8 @@
 				9916D8491CFEEC8A0068C193 /* YYNibTests */,
 				9916D8541CFEEC8A0068C193 /* YYNibUITests */,
 				9916D82E1CFEEC8A0068C193 /* Products */,
+				3B3F7F5DE0420AF227B05ABF /* Pods */,
+				CC59A685A5D970419F1ED459 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +155,8 @@
 		9916D82F1CFEEC8A0068C193 /* YYNib */ = {
 			isa = PBXGroup;
 			children = (
-				9916D8821CFEF25A0068C193 /* YYNib */,
+				9916D8AB1CFFE28B0068C193 /* YYNib */,
+				9916D89C1CFFD68C0068C193 /* FDTemplateCell */,
 				9916D86F1CFEF25A0068C193 /* Classes */,
 				9916D87C1CFEF25A0068C193 /* Resources */,
 				9916D8301CFEEC8A0068C193 /* Supporting Files */,
@@ -126,7 +167,6 @@
 		9916D8301CFEEC8A0068C193 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9916D8311CFEEC8A0068C193 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +201,7 @@
 		9916D8701CFEF25A0068C193 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				9916D8961CFFC77A0068C193 /* Model */,
 				9916D8711CFEF25A0068C193 /* Controller */,
 				9916D8741CFEF25A0068C193 /* View */,
 			);
@@ -172,6 +213,8 @@
 			children = (
 				9916D8721CFEF25A0068C193 /* ViewController.h */,
 				9916D8731CFEF25A0068C193 /* ViewController.m */,
+				9916D8901CFFC71E0068C193 /* YYTableViewController.h */,
+				9916D8911CFFC71E0068C193 /* YYTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +225,9 @@
 				9916D8751CFEF25A0068C193 /* UserInfoView.h */,
 				9916D8761CFEF25A0068C193 /* UserInfoView.m */,
 				9916D8771CFEF25A0068C193 /* UserInfoView.xib */,
+				9916D8931CFFC74F0068C193 /* YYUserInfoCell.h */,
+				9916D8941CFFC74F0068C193 /* YYUserInfoCell.m */,
+				9916D89A1CFFC81E0068C193 /* YYUserInfoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,15 +262,6 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		9916D8821CFEF25A0068C193 /* YYNib */ = {
-			isa = PBXGroup;
-			children = (
-				9916D8831CFEF25A0068C193 /* YYNibView.h */,
-				9916D8841CFEF25A0068C193 /* YYNibView.m */,
-			);
-			path = YYNib;
-			sourceTree = "<group>";
-		};
 		9916D88F1CFEF3060068C193 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +271,48 @@
 			name = Storyboard;
 			sourceTree = "<group>";
 		};
+		9916D8961CFFC77A0068C193 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9916D8971CFFC7920068C193 /* YYUser.h */,
+				9916D8981CFFC7920068C193 /* YYUser.m */,
+			);
+			name = Model;
+			path = View/Model;
+			sourceTree = "<group>";
+		};
+		9916D89C1CFFD68C0068C193 /* FDTemplateCell */ = {
+			isa = PBXGroup;
+			children = (
+				9916D89D1CFFD68C0068C193 /* UITableView+FDIndexPathHeightCache.h */,
+				9916D89E1CFFD68C0068C193 /* UITableView+FDIndexPathHeightCache.m */,
+				9916D89F1CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.h */,
+				9916D8A01CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.m */,
+				9916D8A11CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.h */,
+				9916D8A21CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.m */,
+				9916D8A31CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.h */,
+				9916D8A41CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.m */,
+			);
+			path = FDTemplateCell;
+			sourceTree = "<group>";
+		};
+		9916D8AB1CFFE28B0068C193 /* YYNib */ = {
+			isa = PBXGroup;
+			children = (
+				9916D8AC1CFFE28B0068C193 /* YYNibView.h */,
+				9916D8AD1CFFE28B0068C193 /* YYNibView.m */,
+			);
+			path = YYNib;
+			sourceTree = "<group>";
+		};
+		CC59A685A5D970419F1ED459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				164529DB693891494204DD74 /* libPods-YYNib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9916D85A1CFEEC8A0068C193 /* Build configuration list for PBXNativeTarget "YYNib" */;
 			buildPhases = (
+				A91EF0A76FC8D7555BBB88AB /* 📦 Check Pods Manifest.lock */,
 				9916D8291CFEEC8A0068C193 /* Sources */,
 				9916D82A1CFEEC8A0068C193 /* Frameworks */,
 				9916D82B1CFEEC8A0068C193 /* Resources */,
+				2D3B51A363606D772EEE38C4 /* 📦 Embed Pods Frameworks */,
+				E2780D9D4280433C7AF0E442 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,6 +383,7 @@
 				TargetAttributes = {
 					9916D82C1CFEEC8A0068C193 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2R2ERWR8HM;
 					};
 					9916D8451CFEEC8A0068C193 = {
 						CreatedOnToolsVersion = 7.3;
@@ -337,6 +420,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9916D89B1CFFC81E0068C193 /* YYUserInfoCell.xib in Resources */,
 				9916D8871CFEF25A0068C193 /* UserInfoView.xib in Resources */,
 				9916D88B1CFEF25A0068C193 /* avatar.png in Resources */,
 				9916D88C1CFEF25A0068C193 /* more.png in Resources */,
@@ -363,16 +447,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D3B51A363606D772EEE38C4 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYNib/Pods-YYNib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A91EF0A76FC8D7555BBB88AB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2780D9D4280433C7AF0E442 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYNib/Pods-YYNib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9916D8291CFEEC8A0068C193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9916D88E1CFEF25A0068C193 /* YYNibView.m in Sources */,
+				9916D8AE1CFFE28B0068C193 /* YYNibView.m in Sources */,
 				9916D8891CFEF25A0068C193 /* main.m in Sources */,
+				9916D8A81CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				9916D8921CFFC71E0068C193 /* YYTableViewController.m in Sources */,
 				9916D8881CFEF25A0068C193 /* AppDelegate.m in Sources */,
+				9916D8991CFFC7920068C193 /* YYUser.m in Sources */,
 				9916D8861CFEF25A0068C193 /* UserInfoView.m in Sources */,
+				9916D8951CFFC74F0068C193 /* YYUserInfoCell.m in Sources */,
+				9916D8A61CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.m in Sources */,
 				9916D8851CFEF25A0068C193 /* ViewController.m in Sources */,
+				9916D8A51CFFD68C0068C193 /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				9916D8A71CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +551,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9916D83A1CFEEC8A0068C193 /* Base */,
+				9916D8A91CFFE1C00068C193 /* ar */,
 			);
 			name = Main.storyboard;
 			path = ..;
@@ -421,6 +561,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9916D83F1CFEEC8A0068C193 /* Base */,
+				9916D8AA1CFFE1C00068C193 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			path = ..;
@@ -515,23 +656,33 @@
 		};
 		9916D85B1CFEEC8A0068C193 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0F9280CA6B3C4FDED6EB10 /* Pods-YYNib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/YYNib/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.yzr.YYNib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		9916D85C1CFEEC8A0068C193 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C03C7CCD87CBC836862C71B /* Pods-YYNib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/YYNib/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.yzr.YYNib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -600,6 +751,7 @@
 				9916D85C1CFEEC8A0068C193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9916D85D1CFEEC8A0068C193 /* Build configuration list for PBXNativeTarget "YYNibTests" */ = {
 			isa = XCConfigurationList;
@@ -608,6 +760,7 @@
 				9916D85F1CFEEC8A0068C193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9916D8601CFEEC8A0068C193 /* Build configuration list for PBXNativeTarget "YYNibUITests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +769,7 @@
 				9916D8621CFEEC8A0068C193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

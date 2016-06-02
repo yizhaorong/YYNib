@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" rowHeight="155" id="Ow1-AL-Tex" customClass="YYUserInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ow1-AL-Tex" id="RhD-Ba-gUF">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="154"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z2z-tQ-8g8">
+                        <rect key="frame" x="0.0" y="12" width="353" height="142"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p3Z-9u-KOx" customClass="UserInfoView">
+                                <rect key="frame" x="0.0" y="0.0" width="353" height="60"/>
+                                <color key="backgroundColor" red="0.35306549710000001" green="1" blue="0.1460751753" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ijT-cv-jdD"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAz-j5-RWj">
+                                <rect key="frame" x="10" y="70" width="333" height="61"/>
+                                <string key="text">add xib into storyboard or xib
+添加 xib 到 storyboard 或者添加到 xib</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qfT-aI-hYu" userLabel="bottomLine">
+                                <rect key="frame" x="0.0" y="141" width="353" height="1"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.045434191929999999" blue="0.23778004320000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Ach-Sa-aGv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zAz-j5-RWj" firstAttribute="top" secondItem="p3Z-9u-KOx" secondAttribute="bottom" constant="10" id="279-0Y-Vqg"/>
+                            <constraint firstAttribute="trailing" secondItem="zAz-j5-RWj" secondAttribute="trailing" constant="10" id="9KI-fD-shi"/>
+                            <constraint firstAttribute="trailing" secondItem="p3Z-9u-KOx" secondAttribute="trailing" id="BcG-ZN-u2H"/>
+                            <constraint firstItem="qfT-aI-hYu" firstAttribute="leading" secondItem="z2z-tQ-8g8" secondAttribute="leading" id="G2R-UM-hc2"/>
+                            <constraint firstAttribute="bottom" secondItem="qfT-aI-hYu" secondAttribute="bottom" id="VI2-tQ-dZL"/>
+                            <constraint firstAttribute="trailing" secondItem="qfT-aI-hYu" secondAttribute="trailing" id="fFd-2L-3A0"/>
+                            <constraint firstItem="p3Z-9u-KOx" firstAttribute="leading" secondItem="z2z-tQ-8g8" secondAttribute="leading" id="g5u-fv-u1d"/>
+                            <constraint firstItem="p3Z-9u-KOx" firstAttribute="top" secondItem="z2z-tQ-8g8" secondAttribute="top" id="nVU-I6-ZbY"/>
+                            <constraint firstItem="zAz-j5-RWj" firstAttribute="leading" secondItem="z2z-tQ-8g8" secondAttribute="leading" constant="10" id="q7w-pI-NhD"/>
+                            <constraint firstItem="qfT-aI-hYu" firstAttribute="top" secondItem="zAz-j5-RWj" secondAttribute="bottom" constant="10" id="uM8-JM-dl9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="z2z-tQ-8g8" firstAttribute="leading" secondItem="RhD-Ba-gUF" secondAttribute="leadingMargin" constant="-8" id="HvC-qK-On1"/>
+                    <constraint firstItem="z2z-tQ-8g8" firstAttribute="top" secondItem="RhD-Ba-gUF" secondAttribute="topMargin" constant="4" id="Qt4-bq-luH"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="z2z-tQ-8g8" secondAttribute="bottom" constant="-8" id="Ubz-fq-95x"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="z2z-tQ-8g8" secondAttribute="trailing" constant="-8" id="cGi-DS-Du4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="contentLabel" destination="zAz-j5-RWj" id="vVc-g6-Hu1"/>
+            </connections>
+            <point key="canvasLocation" x="439.5" y="183.5"/>
+        </tableViewCell>
+    </objects>
+</document>
