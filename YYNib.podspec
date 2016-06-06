@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YYNib"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "添加 xib 到 storyboard 或者添加到 xib"
   s.description  = "add xib into storyboard or xib \n 添加 xib 到 storyboard 或者添加到 xib"
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yizhaorong/YYNib.git", :tag => "release_0.0.1" }
+  s.source       = { :git => "https://github.com/yizhaorong/YYNib.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

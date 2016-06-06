@@ -28,7 +28,6 @@
 		9916D8A61CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8A01CFFD68C0068C193 /* UITableView+FDKeyedHeightCache.m */; };
 		9916D8A71CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8A21CFFD68C0068C193 /* UITableView+FDTemplateLayoutCell.m */; };
 		9916D8A81CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8A41CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.m */; };
-		9916D8AE1CFFE28B0068C193 /* YYNibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9916D8AD1CFFE28B0068C193 /* YYNibView.m */; };
 		AEC3C4B7496B4326A17EEB58 /* libPods-YYNib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 164529DB693891494204DD74 /* libPods-YYNib.a */; };
 /* End PBXBuildFile section */
 
@@ -500,7 +499,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9916D8AE1CFFE28B0068C193 /* YYNibView.m in Sources */,
 				9916D8891CFEF25A0068C193 /* main.m in Sources */,
 				9916D8A81CFFD68C0068C193 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				9916D8921CFFC71E0068C193 /* YYTableViewController.m in Sources */,
@@ -662,7 +660,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/YYNib/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.yzr.YYNib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -678,7 +676,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/YYNib/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.yzr.YYNib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
